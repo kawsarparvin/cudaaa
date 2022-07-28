@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    border: 0;
+    box-sizing:border-box;
+}
+header{
+   background-color:rgb(128, 34, 216) ;
+   
+   width: 100%;
+}
+.Container{
+   width: 80%;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin: auto;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    float: left;
+width: 100%;
+
+}
+
+.logo-part img{
+    width: 100px;
+    height:25px;
+}
+.logo-part {
+        width: 50%;
+        transition: ease-in-out 0.8s;
+        float: left;
+        padding-top: 50px;
+       
+}
+.menu-part a{
+    color: rgb(53, 0, 0);
+    text-decoration:none ;
+    float: left;
+    padding: 10px;
+    font-size:20px;
+    background-color:rgba(19, 118, 148, 0.267);
+    }
+ .menu-part a:hover{
+    background-color: white;
+    color:rgb(0, 0, 0);
+    transition: ease-in-out 0.03s;
+}
+.menu-part ul{
+text-align: end;
+
+}
+.menu-part li{
+    display: inline-block;
+   
+}
+
+.h1{ 
+    text-align: center;
+    padding-top: 200px;
+}
+.h1 button {
+    width:150px;
+    height:50px;
+    margin-top: 35px;
+    background-color: rgb(214, 96, 52);
+   
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.h1 a{
+    text-decoration: none;
+    
+}
+/**part2**/
+.Container2{
+    background-color: rgba(33, 216, 216, 0.815);
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Service{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.Service p{
+    text-align: center;
+}
+.Service h1{
+    text-align: center;
+    color: white;
+    }
+.BRANDING{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    
+    }
+    .BRANDING img{
+        width:100px;
+        height:100px;
+         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .BRANDING h1{
+        color: white;
+        text-align: center;
+    }
+    .Design{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    }
+    .Design img{
+    width: 100px;
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    }
+    .Design h1{
+    color:white;
+    text-align: center;
+    }
+    .Development{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    }
+    .Development h1{
+    color: white;
+    text-align: center;
+    }
+    .Development img{
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .Rocket-Science{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    }
+    .Rocket-Science h1{
+    color:white;
+    text-align: center;
+    }
+    .Rocket-Science img{
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    }
